@@ -1,0 +1,28 @@
+지식자료 1: AI 안전 서비스의 4가지 참조 사례
+Intenseye
+
+Intenseye는 산업현장의 기존 CCTV를 활용하여 PPE 미착용, 위험구역 침범, 작업자 행동, 차량-보행자 상호작용 등 보이지 않던 위험을 computer vision AI로 감지하는 workplace safety 플랫폼이다. 핵심 가치는 사고가 발생한 후 확인하는 것이 아니라, 사고 전 위험행동과 near miss를 가시화하여 EHS 조직이 선제적으로 개입하게 하는 것이다.
+
+설계 교훈:
+기존 CCTV를 사고 후 기록 장비에서 사고 전 위험 감지 인프라로 전환한다.
+
+Protex AI
+
+Protex AI는 기존 카메라 인프라와 엣지 AI를 활용해 산업현장의 위험상태와 행동 위험을 감지하고, 이를 Intelex, EcoOnline 같은 EHS 시스템과 연동한다. 핵심은 위험 감지를 알림에서 끝내지 않고, incident reporting, near miss 기록, corrective action, compliance reporting으로 연결하는 것이다.
+
+설계 교훈:
+감지 결과를 조직의 공식 안전관리 업무 프로세스 안으로 넣어야 한다.
+
+Shawmut
+
+Shawmut Design and Construction은 건설현장에서 Newmetrix의 AI 엔진 Vinnie를 활용해 현장 사진, 프로젝트 데이터, 위험 요인을 분석하고 프로젝트별 위험 수준을 대시보드화했다. 핵심은 모든 현장을 동일하게 보는 것이 아니라, 어느 현장이 더 위험한지 판단하고 안전관리자의 개입 우선순위를 정하는 것이다.
+
+설계 교훈:
+AI는 위험을 보는 도구일 뿐 아니라, 제한된 안전관리 자원을 어디에 배분할지 알려주는 도구이다.
+
+Mind Foundry
+
+Mind Foundry는 고위험 의사결정 영역에서 Responsible AI와 Continuous Metalearning을 강조한다. 보험 사기 탐지 사례에서는 AI 모델이 사기 패턴을 식별하고 우선순위화하는 동시에, 운영 중 모델 리스크, drift, 설명가능성, 감사 가능성을 관리한다.
+
+설계 교훈:
+AI 안전 서비스는 모델을 배포하는 것으로 끝나지 않고, 운영 중 신뢰성과 책임성을 지속 관리해야 한다.
